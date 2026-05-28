@@ -1,21 +1,8 @@
- p{
-    font-family: 'Roboto', Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-        
-    }
     .thumbnail{
-        width: 300px;
-        display: block;
-    }
-
-    .search-bar{
-        display: block;
-
+        width: 100%;
     }
 
     .video-title{
-        width: 250px;
         margin-top: 0;
         font-size: 14px;
         font-weight: 500;
@@ -48,6 +35,19 @@
 
     .thumbnail-row{
         margin-bottom: 12px;
+        position: relative;
+    }
+    .video-time{
+        position: absolute;
+        bottom: 8px;
+        right: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 4px 4px;
+        font-size: 12px;
+        font-family: 'Roboto', Arial;
+        font-weight: 500;
+        border-radius: 2px;
     }
     .video-author, .video-stats{
         font-size: 12px;
